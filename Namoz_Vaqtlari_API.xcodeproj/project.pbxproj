@@ -14,9 +14,15 @@
 		A60C51A12964471300C1D411 /* Namoz_Vaqtlari_API.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A60C519F2964471300C1D411 /* Namoz_Vaqtlari_API.xcdatamodeld */; };
 		A60C51A32964471400C1D411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60C51A22964471400C1D411 /* Assets.xcassets */; };
 		A60C51A62964471400C1D411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60C51A42964471400C1D411 /* LaunchScreen.storyboard */; };
+		A68118F029644BB900F54D2F /* CustomModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68118EF29644BB900F54D2F /* CustomModal.swift */; };
+		A6D9F69D296556E200BA769C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D9F69C296556E200BA769C /* CustomTableViewCell.swift */; };
+		A6F74AE12968B31A00FB37FE /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F74AE02968B31A00FB37FE /* NetworkMonitor.swift */; };
+		C0D490100BCF367B5221B75E /* Pods_Namoz_Vaqtlari_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBEF40ACE2489D635453E57 /* Pods_Namoz_Vaqtlari_API.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ED692AD545FCEA1BAAF1E71 /* Pods-Namoz_Vaqtlari_API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Namoz_Vaqtlari_API.debug.xcconfig"; path = "Target Support Files/Pods-Namoz_Vaqtlari_API/Pods-Namoz_Vaqtlari_API.debug.xcconfig"; sourceTree = "<group>"; };
+		6BBEF40ACE2489D635453E57 /* Pods_Namoz_Vaqtlari_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Namoz_Vaqtlari_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60C51932964471300C1D411 /* Namoz_Vaqtlari_API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Namoz_Vaqtlari_API.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60C51962964471300C1D411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A60C51982964471300C1D411 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +32,10 @@
 		A60C51A22964471400C1D411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A60C51A52964471400C1D411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A60C51A72964471400C1D411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A68118EF29644BB900F54D2F /* CustomModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModal.swift; sourceTree = "<group>"; };
+		A6D9F69C296556E200BA769C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A6F74AE02968B31A00FB37FE /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		D51B5886DF87CF8A4D1F5A8D /* Pods-Namoz_Vaqtlari_API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Namoz_Vaqtlari_API.release.xcconfig"; path = "Target Support Files/Pods-Namoz_Vaqtlari_API/Pods-Namoz_Vaqtlari_API.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D490100BCF367B5221B75E /* Pods_Namoz_Vaqtlari_API.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BED71340F464A2F56796EB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BBEF40ACE2489D635453E57 /* Pods_Namoz_Vaqtlari_API.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F54F4890BCB08ADB014B51E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ED692AD545FCEA1BAAF1E71 /* Pods-Namoz_Vaqtlari_API.debug.xcconfig */,
+				D51B5886DF87CF8A4D1F5A8D /* Pods-Namoz_Vaqtlari_API.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A60C518A2964471300C1D411 = {
 			isa = PBXGroup;
 			children = (
 				A60C51952964471300C1D411 /* Namoz_Vaqtlari_API */,
 				A60C51942964471300C1D411 /* Products */,
+				9F54F4890BCB08ADB014B51E /* Pods */,
+				2BED71340F464A2F56796EB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +88,59 @@
 		A60C51952964471300C1D411 /* Namoz_Vaqtlari_API */ = {
 			isa = PBXGroup;
 			children = (
-				A60C51962964471300C1D411 /* AppDelegate.swift */,
-				A60C51982964471300C1D411 /* SceneDelegate.swift */,
-				A60C519A2964471300C1D411 /* ViewController.swift */,
-				A60C519C2964471300C1D411 /* Main.storyboard */,
+				A68118EB29644B8600F54D2F /* App Delegate */,
+				A68118EE29644BA800F54D2F /* Modal */,
+				A68118F129644BBE00F54D2F /* View */,
+				A68118EC29644B9500F54D2F /* Controller */,
+				A68118ED29644B9D00F54D2F /* Cell */,
 				A60C51A22964471400C1D411 /* Assets.xcassets */,
-				A60C51A42964471400C1D411 /* LaunchScreen.storyboard */,
 				A60C51A72964471400C1D411 /* Info.plist */,
 				A60C519F2964471300C1D411 /* Namoz_Vaqtlari_API.xcdatamodeld */,
 			);
 			path = Namoz_Vaqtlari_API;
+			sourceTree = "<group>";
+		};
+		A68118EB29644B8600F54D2F /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A60C51962964471300C1D411 /* AppDelegate.swift */,
+				A60C51982964471300C1D411 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		A68118EC29644B9500F54D2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A60C519A2964471300C1D411 /* ViewController.swift */,
+				A6F74AE02968B31A00FB37FE /* NetworkMonitor.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A68118ED29644B9D00F54D2F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A6D9F69C296556E200BA769C /* CustomTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A68118EE29644BA800F54D2F /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				A68118EF29644BB900F54D2F /* CustomModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		A68118F129644BBE00F54D2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A60C519C2964471300C1D411 /* Main.storyboard */,
+				A60C51A42964471400C1D411 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A60C51AA2964471400C1D411 /* Build configuration list for PBXNativeTarget "Namoz_Vaqtlari_API" */;
 			buildPhases = (
+				A01EC7DAB291D6D47B46AD35 /* [CP] Check Pods Manifest.lock */,
 				A60C518F2964471300C1D411 /* Sources */,
 				A60C51902964471300C1D411 /* Frameworks */,
 				A60C51912964471300C1D411 /* Resources */,
+				A059CB0097ECDAE82D4E34CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +211,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A01EC7DAB291D6D47B46AD35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Namoz_Vaqtlari_API-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A059CB0097ECDAE82D4E34CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Namoz_Vaqtlari_API/Pods-Namoz_Vaqtlari_API-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Namoz_Vaqtlari_API/Pods-Namoz_Vaqtlari_API-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Namoz_Vaqtlari_API/Pods-Namoz_Vaqtlari_API-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A60C518F2964471300C1D411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A60C51A12964471300C1D411 /* Namoz_Vaqtlari_API.xcdatamodeld in Sources */,
+				A68118F029644BB900F54D2F /* CustomModal.swift in Sources */,
 				A60C519B2964471300C1D411 /* ViewController.swift in Sources */,
+				A6D9F69D296556E200BA769C /* CustomTableViewCell.swift in Sources */,
 				A60C51972964471300C1D411 /* AppDelegate.swift in Sources */,
 				A60C51992964471300C1D411 /* SceneDelegate.swift in Sources */,
+				A6F74AE12968B31A00FB37FE /* NetworkMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +406,7 @@
 		};
 		A60C51AB2964471400C1D411 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED692AD545FCEA1BAAF1E71 /* Pods-Namoz_Vaqtlari_API.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +434,7 @@
 		};
 		A60C51AC2964471400C1D411 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51B5886DF87CF8A4D1F5A8D /* Pods-Namoz_Vaqtlari_API.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
